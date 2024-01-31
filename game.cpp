@@ -7,11 +7,7 @@
 #include <SDL2/SDL_image.h>
 #include <SDL2/SDL_mixer.h>
 
-int main(int argc, char* argv[]) {
-
-    for (int i=0; i > argc; i++) {
-        printf("%s\n",argv[i]);
-    }
+int main() {
 
     // Initialize SDL
     if (SDL_Init(SDL_INIT_VIDEO) != 0) {
